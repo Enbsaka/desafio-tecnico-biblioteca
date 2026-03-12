@@ -13,5 +13,3 @@ VALUES ('$titulo','$autor','$ano','$categoria')";
 $conn->query($sql);
 
 header("Location: lista_livros.php");
-
-?>
